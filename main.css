@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    background: white;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #25252A;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background: #eee;
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 1500px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(65, 65, 65);
+}
+
+hr {
+    margin: 8px 1em;
+}
+
+                                                                                /* Index page */
+.hotel__section {
+    text-align: center;
+    padding: 2rem 1rem 0.5rem 1rem;
+}
+
+.hotel__section h2 {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 350px;
+}
+
+.hotel {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 0 0 1em 0;
+}
+
+.hotel__details {
+    padding: 0 1em;
+}
+
+.hotel__selected {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 0 0 1em 0;
+}
+
+.hotel__description > p {
+    margin: 0;
+    padding: 1em;
+    text-align: justify;
+}
+
+                                                                                            /* footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer h2 {
+    margin-bottom: 2.5rem;
+    text-align: left;
+}
+
+.footer-col li {
+    padding: 0.5rem 0;
+}
+
+.footer-col a {
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.footer-col a:hover {
+    opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        padding: 1rem 4rem;
+    }
+    
+    .footer-col {
+        display: flex;
+        justify-content: space-around;
+    }
+}
